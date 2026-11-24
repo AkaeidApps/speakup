@@ -1,0 +1,8 @@
+import 'package:get/get.dart';
+
+abstract class BaseBinding extends Bindings {
+  @override
+  void dependencies() {
+    // Override in subclasses
+  }
+}
